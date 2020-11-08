@@ -11,8 +11,8 @@ describe('Validate setting the test', () => {
 describe('GET "/item"', ()=>{
     it('Something', (done)=>{
         let want = [
-            {id: '1', name: 'Iphone 12 Pro Max'},
-            {id: '2', name: 'Iphone 12'}
+            {id: '1', name: 'Chanel Boy'},
+            {id: '2', name: 'Hermes'}
         ]
 
         request(app).get('/item').expect(want, done)

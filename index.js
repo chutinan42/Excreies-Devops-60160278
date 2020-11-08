@@ -3,8 +3,8 @@ const app = express()
 const port = process.env.PORT || 3000
 
 const items = [
-    {id: '1', name: 'Iphone 12 Pro Max'},
-    {id: '2', name: 'Iphone 12'}
+    {id: '1', name: 'Chanel Boy'},
+    {id: '2', name: 'Hermes'}
 ]
 
 app.get('/', (req, res) => {
